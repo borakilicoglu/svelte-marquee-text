@@ -1,3 +1,3 @@
-import TradingViewWidget from "./TradingViewWidget.svelte";
+import MarqueeTextWidget from "./MarqueeTextWidget.svelte";
 
-export default TradingViewWidget;
+export default MarqueeTextWidget;

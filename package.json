@@ -1,6 +1,6 @@
 {
-  "name": "svelte-tradingview-widget",
-  "version": "1.0.1",
+  "name": "svelte-marquee-text-widget",
+  "version": "1.0.0",
   "description": "[CSS GPU Animation] Marquee Text for Svelte",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -10,17 +10,18 @@
     "dev": "rollup -c -w"
   },
   "keywords": [
-    "tradingview",
-    "tradingview widget",
-    "tradingview widget svelte"
+    "marquee",
+    "marquee text",
+    "marquee text widget",
+    "marquee text widget svelte"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/borakilicoglu/svelte-tradingview-widget"
+    "url": "https://github.com/borakilicoglu/svelte-marquee-text-widget"
   },
   "homepage": "",
   "bugs": {
-    "url": "https://github.com/borakilicoglu/svelte-tradingview-widget/issues"
+    "url": "https://github.com/borakilicoglu/svelte-marquee-text-widget/issues"
   },
   "author": "Bora Kilicoglu",
   "license": "MIT",

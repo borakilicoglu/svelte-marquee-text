@@ -1,0 +1,33 @@
+{
+  "name": "svelte-tradingview-widget",
+  "version": "1.0.1",
+  "description": "[CSS GPU Animation] Marquee Text for Svelte",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "tradingview",
+    "tradingview widget",
+    "tradingview widget svelte"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borakilicoglu/svelte-tradingview-widget"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/borakilicoglu/svelte-tradingview-widget/issues"
+  },
+  "author": "Bora Kilicoglu",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.8.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.2.1",
+    "svelte": "^3.22.2"
+  }
+}

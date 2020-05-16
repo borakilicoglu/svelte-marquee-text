@@ -9,5 +9,15 @@ export default {
     { file: pkg.module, format: "en" },
     { file: pkg.main, format: "umd", name: "MarqueeTextWidget" },
   ],
-  plugins: [svelte(), resolve()],
+  plugins: [
+    svelte({
+      onwarn: (warning, handler) => {
+        const { code, frame } = warning;
+        if (code === "css-unused-selector") return;
+
+        handler(warning);
+      },
+    }),
+    resolve(),
+  ],
 };

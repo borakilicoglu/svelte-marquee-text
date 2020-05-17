@@ -6,9 +6,6 @@
 </script>
 
 <style>
-  .wrap {
-    overflow: hidden;
-  }
   .content {
     width: 100000px;
   }
@@ -31,7 +28,7 @@
   }
 </style>
 
-<div class="wrap">
+<div style="overflow: hidden;">
   <div class="content" class:paused={paused === true}>
     {#each Array(repeat) as _, i}
       <div class="text" style="animation-duration: {duration}s">

@@ -37,10 +37,10 @@ On your page you can now use html like this:
 </marquee-text-widget>
 
 <!-- slow duration -->
-<marquee-text :duration="{30}">
+<marquee-text-widget :duration="{30}">
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna.
-</marquee-text>
+</marquee-text-widget>
 ```
 
 ## Props

@@ -1,6 +1,8 @@
 <!-- markdownlint-disable -->
 <style>
-table, thead, tbody {widht: 100% !important}
+table {widht: 100% !important}
+thead {widht: 100% !important}
+tbody {widht: 100% !important}
 </style>
 
 <!-- markdownlint-unable -->

@@ -32,12 +32,14 @@ On your page you can now use html like this:
 </marquee-text-widget>
 
 <!-- short text need more duplicates -->
-<marquee-text-widget repeat="{10}">
+<!-- prettier-ignore -->
+<marquee-text-widget repeat={10}>
   Short text =(
 </marquee-text-widget>
 
 <!-- slow duration -->
-<marquee-text-widget :duration="{30}">
+<!-- prettier-ignore -->
+<marquee-text-widget duration={30}>
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna.
 </marquee-text-widget>

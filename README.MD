@@ -45,8 +45,8 @@ On your page you can now use html like this:
 
 ## Props
 
-| Prop     | Type    | Default | Description                                                                                                                                                        |
-| -------- | ------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| duration | Number  | 15      | Animation Duration                                                                                                                                                 |
-| repeat   | Number  | 2       | Number of repeat the Slot (It's important for to short content)                                                                                                    |
-| paused   | Boolean | false   | The property specifies whether the animation is running or paused &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Prop     | Type    | Default | Description                                                                                                                                                                                                                                      |
+| -------- | ------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| duration | Number  | 15      | Animation Duration                                                                                                                                                                                                                               |
+| repeat   | Number  | 2       | Number of repeat the Slot (It's important for to short content)                                                                                                                                                                                  |
+| paused   | Boolean | false   | The property specifies whether the animation is running or paused &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |

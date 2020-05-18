@@ -13,3 +13,40 @@
 ## Install
 
 `npm install svelte-marquee-text-widget` or `yarn add svelte-marquee-text-widget`
+
+## Usage
+
+Import that in your App.svelte or similar file
+
+```js
+import MarqueeTextWidget from "svelte-marquee-text-widget";
+```
+
+On your page you can now use html like this:
+
+```html
+<!-- simple marquee text -->
+<marquee-text-widget>
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  eirmod tempor invidunt ut labore et dolore magna.
+</marquee-text-widget>
+
+<!-- short text need more duplicates -->
+<marquee-text-widget repeat="{10}">
+  Short text =(
+</marquee-text-widget>
+
+<!-- slow duration -->
+<marquee-text :duration="{30}">
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  eirmod tempor invidunt ut labore et dolore magna.
+</marquee-text>
+```
+
+## Props
+
+| Prop     | Type    | Default | Description                                                       |
+| -------- | ------- | ------- | ----------------------------------------------------------------- |
+| duration | Number  | 15      | Animation Duration                                                |
+| repeat   | Number  | 2       | Number of repeat the Slot (It's important for to short content)   |
+| paused   | Boolean | false   | The property specifies whether the animation is running or paused |

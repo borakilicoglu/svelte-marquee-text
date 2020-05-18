@@ -1,3 +1,10 @@
+<!-- markdownlint-disable -->
+<style>
+table, thead, tbody {widht: 100% !important}
+</style>
+
+<!-- markdownlint-unable -->
+
 # svelte-marquee-text-widget
 
 > [[CSS GPU Animation](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)] Marquee Text for Svelte

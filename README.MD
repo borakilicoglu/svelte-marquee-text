@@ -1,12 +1,3 @@
-<!-- markdownlint-disable -->
-<style>
-table {widht: 100% !important}
-thead {widht: 100% !important}
-tbody {widht: 100% !important}
-</style>
-
-<!-- markdownlint-unable -->
-
 # svelte-marquee-text-widget
 
 > [[CSS GPU Animation](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)] Marquee Text for Svelte
@@ -54,8 +45,8 @@ On your page you can now use html like this:
 
 ## Props
 
-| Prop     | Type    | Default | Description                                                       |
-| -------- | ------- | ------- | ----------------------------------------------------------------- |
-| duration | Number  | 15      | Animation Duration                                                |
-| repeat   | Number  | 2       | Number of repeat the Slot (It's important for to short content)   |
-| paused   | Boolean | false   | The property specifies whether the animation is running or paused |
+| Prop     | Type    | Default | Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| -------- | ------- | ------- | ------------------------------------------------------------------------------------------------------------ |
+| duration | Number  | 15      | Animation Duration                                                                                           |
+| repeat   | Number  | 2       | Number of repeat the Slot (It's important for to short content)                                              |
+| paused   | Boolean | false   | The property specifies whether the animation is running or paused                                            |

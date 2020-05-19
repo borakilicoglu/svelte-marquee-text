@@ -541,12 +541,6 @@ img {
   background-color: rgba(247, 250, 252, var(--bg-opacity));
 }
 
-.bg-blue-500 {
-  --bg-opacity: 1;
-  background-color: #4299e1;
-  background-color: rgba(66, 153, 225, var(--bg-opacity));
-}
-
 .bg-indigo-100 {
   --bg-opacity: 1;
   background-color: #ebf4ff;
@@ -753,6 +747,10 @@ img {
   overflow: hidden;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -854,12 +852,6 @@ img {
   --text-opacity: 1;
   color: #1a202c;
   color: rgba(26, 32, 44, var(--text-opacity));
-}
-
-.text-orange-100 {
-  --text-opacity: 1;
-  color: #fffaf0;
-  color: rgba(255, 250, 240, var(--text-opacity));
 }
 
 .text-indigo-600 {

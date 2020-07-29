@@ -1,4 +1,4 @@
-# svelte-marquee-text-widget
+# svelte-marquee-text
 
 > [[CSS GPU Animation](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)] Marquee Text for Svelte
 

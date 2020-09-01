@@ -8,7 +8,7 @@
 
 ## Demo
 
-[https://borakilicoglu.github.io/svelte-marquee-text/](https://borakilicoglu.github.io/svelte-marquee-text/)
+[https://borakilicoglu.github.io/svelte-marquee-text](https://borakilicoglu.github.io/svelte-marquee-text)
 
 ## Install
 

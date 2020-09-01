@@ -38,7 +38,7 @@
 
 <div style="overflow: hidden;" id="container">
   <div class="content" class:paused={paused || (pauseOnHover && hovered)}>
-    {#each Array(repeat) as _}
+    {#each Array(repeat) as _, i}
       <div class="text" style="animation-duration: {duration}s">
         <slot />
       </div>

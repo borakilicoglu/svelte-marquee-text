@@ -18,7 +18,7 @@
 
 <style>
   .content {
-    width: 10000px;
+    width: 100000px;
   }
   .text {
     animation-name: animation;

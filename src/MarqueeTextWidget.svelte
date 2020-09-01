@@ -26,7 +26,7 @@
     animation-iteration-count: infinite;
     float: left;
   }
-  .paused {
+  .paused .text {
     animation-play-state: paused;
   }
   @keyframes animation {
@@ -36,7 +36,7 @@
   }
 </style>
 
-<div style="overflow: hidden;" id="container">
+<div style="overflow: hidden;">
   <div class="content" class:paused={paused || (pauseOnHover && hovered)}>
     {#each Array(repeat) as _, i}
       <div class="text" style="animation-duration: {duration}s">

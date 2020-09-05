@@ -26,27 +26,28 @@ On your page you can now use html like this:
 
 ```html
 <!-- simple marquee text -->
-<marquee-text-widget>
+<MarqueeTextWidget>
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna.
-</marquee-text-widget>
+</MarqueeTextWidget>
 
 <!-- short text need more duplicates -->
-<marquee-text-widget repeat="{10}">
+<MarqueeTextWidget repeat="{10}">
   Short text =(
-</marquee-text-widget>
+</MarqueeTextWidget>
 
 <!-- slow duration -->
-<marquee-text-widget duration="{30}">
+<MarqueeTextWidget duration="{30}">
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna.
-</marquee-text-widget>
+</MarqueeTextWidget>
 ```
 
 ## Props
 
-| Prop     | Type    | Default | Description                                                                                                                                                                                                                                                                    |
-| -------- | ------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| duration | Number  | 15      | Animation Duration                                                                                                                                                                                                                                                             |
-| repeat   | Number  | 2       | Number of repeat the Slot (It's important for to short content)                                                                                                                                                                                                                |
-| paused   | Boolean | false   | The property specifies whether the animation is running or paused &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Prop         | Type    | Default | Description        |
+| ------------ | ------- | ------- | ------------------ |
+| duration     | Number  | 15      | Animation Duration |
+| repeat       | Number  | 2       | Number of repeat the Slot (It's important for to short content) |
+| paused       | Boolean | false   | The property specifies whether the animation is running or paused |
+| pauseOnHover | Boolean | false   | The property specifies whether the animation should be paused when hovered over |

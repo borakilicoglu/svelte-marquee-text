@@ -1,8 +1,19 @@
 <script>
   import { onMount } from "svelte";
+
   export let duration = 15;
   export let repeat = 2;
   export let paused = false;
+  export let pauseOnHover = false;
+
+  let hovered = false;
+
+  onMount(async () => {
+    const container = document.querySelector("#container");
+
+    container.onmouseover  = () => { hovered = true  }
+    container.onmouseleave = () => { hovered = false }
+  })
 </script>
 
 <style>
@@ -19,9 +30,6 @@
     animation-play-state: paused;
   }
   @keyframes animation {
-    0% {
-      transform: translateX(0);
-    }
     100% {
       transform: translateX(-100%);
     }
@@ -29,7 +37,7 @@
 </style>
 
 <div style="overflow: hidden;">
-  <div class="content" class:paused={paused === true}>
+  <div class="content" class:paused={paused || (pauseOnHover && hovered)}>
     {#each Array(repeat) as _, i}
       <div class="text" style="animation-duration: {duration}s">
         <slot />

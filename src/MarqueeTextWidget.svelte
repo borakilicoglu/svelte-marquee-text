@@ -21,17 +21,17 @@
   .content {
     width: 100000px;
   }
-  .text {
-    animation-name: animation;
+  .text{
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+  }
+  .dir-left {
+    animation-name: animation-left;
     float: left;
   }
-  .left{
-    animation-name: animation-left;
-  }
-  .right{
+  .dir-right {
     animation-name: animation-right;
+    float: right;
   }
   .paused .text {
     animation-play-state: paused;
@@ -51,7 +51,7 @@
 <div style="overflow: hidden;">
   <div class="content" class:paused={paused || (pauseOnHover && hovered)}>
     {#each Array(repeat) as _, i}
-      <div class="text {direction === "left" ? "left" : "right"}" style="animation-duration: {duration}s">
+      <div class="text {direction === "left" ? "dir-left" : "dir-right"}" style="animation-duration: {duration}s">
         <slot />
       </div>
     {/each}

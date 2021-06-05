@@ -5,6 +5,7 @@
   export let repeat = 2;
   export let paused = false;
   export let pauseOnHover = false;
+  export let direction = "left";
 
   let hovered = false;
 
@@ -26,12 +27,23 @@
     animation-iteration-count: infinite;
     float: left;
   }
+  .left{
+    animation-name: animation-left;
+  }
+  .right{
+    animation-name: animation-right;
+  }
   .paused .text {
     animation-play-state: paused;
   }
-  @keyframes animation {
+  @keyframes animation-left {
     100% {
       transform: translateX(-100%);
+    }
+  }
+   @keyframes animation-right {
+    100% {
+      transform: translateX(100%);
     }
   }
 </style>
@@ -39,7 +51,7 @@
 <div style="overflow: hidden;">
   <div class="content" class:paused={paused || (pauseOnHover && hovered)}>
     {#each Array(repeat) as _, i}
-      <div class="text" style="animation-duration: {duration}s">
+      <div class="text {direction === "left" ? "left" : "right"}" style="animation-duration: {duration}s">
         <slot />
       </div>
     {/each}
